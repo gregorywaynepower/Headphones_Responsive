@@ -107,3 +107,74 @@ header .header-buttons .orange-btn {
     position: absolute;
 }
 }
+/*iPhone 6/7/8*/
+@media only screen and (max-width: 376px) {
+    header {
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+    }
+    header .logo {
+        margin-left: 100px;
+    }
+    header .menu a {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: .75rem;
+    }
+    header .header-buttons {
+        display: inline-block;
+        float: right;
+        position: relative;
+        text-align: center;
+    }
+    header .header-buttons .blue-btn {
+        position: absolute;
+        top: 23px;
+        padding: 14px 35px;
+        margin-left: -222px;
+    }
+    header .header-buttons .orange-btn {
+        padding: 14px 30px;
+        top: 73px;
+        margin-left: -196px;
+        position: absolute;
+    }
+    }
+    /*iPhone 6/7/8 Plus*/
+@media only screen and (max-width: 415px) {
+    header {
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+    }
+    header .logo {
+        margin-left: 121px;
+    }
+    header .menu {
+        margin-left: 20px;
+    }
+    header .menu a {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: .75rem;
+    }
+    header .header-buttons {
+        display: inline-block;
+        float: right;
+        position: relative;
+        text-align: center;
+    }
+    header .header-buttons .blue-btn {
+        position: absolute;
+        top: 23px;
+        padding: 14px 35px;
+        margin-left: -222px;
+    }
+    header .header-buttons .orange-btn {
+        padding: 14px 30px;
+        top: 73px;
+        margin-left: -196px;
+        position: absolute;
+    }
+    }
