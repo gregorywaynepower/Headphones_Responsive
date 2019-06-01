@@ -1,0 +1,109 @@
+header {
+    padding: 30px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+header a {
+    color: #4C44C1;
+    text-decoration: none;
+}
+header .logo {
+    display: inline-block;
+    float: left;
+    margin-right: 28px;
+}
+header .logo img {
+    width: 40px;
+}
+header .menu {
+    display: inline-block;
+    float: left;
+    position: relative;
+    top: 20px;
+}
+header .menu a {
+    text-transform: uppercase;
+}
+header .header-buttons {
+    display: inline-block;
+    float: right;
+}
+header .header-buttons .blue-btn {
+    background: #6066F2;
+    padding: 14px 46px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+}
+header .header-buttons .blue-btn .fas {
+    margin-left: 15px;
+}
+header .header-buttons .orange-btn {
+    background: #FEA83B;
+    padding: 14px 46px;
+    color: white;
+    border-radius: 35px;
+    text-transform: uppercase;
+    position: relative;
+    top: 20px;
+    -webkit-box-shadow: -0px 17px 40px -10px rgba(0,0,0,0.3);
+    -moz-box-shadow: -0px 17px 40px -10px rgba(0,0,0,0.3);
+    box-shadow: -0px 17px 40px -10px rgba(0,0,0,0.3);
+}
+/*Laptop Devices*/
+@media only screen and (max-width: 1215px) {
+    
+}
+/*Tablet Devices*/
+@media only screen and (max-width: 1023px) {
+header .header-buttons .blue-btn {
+    padding: 14px 25px;
+}
+header .header-buttons .orange-btn {
+    padding: 14px 30px;
+}
+}
+/*Mobile Devices*/
+@media only screen and (max-width: 767px) {
+header {
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+}
+header .logo {
+    margin-left: 100px;
+}
+header .menu a {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+header .header-buttons {
+    display: inline-block;
+    float: right;
+    position: absolute;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: -150px;
+}
+header .header-buttons .blue-btn {
+    position: relative;
+    top: 50px;
+    padding: 14px 35px;
+    margin-left: -190px;
+}
+header .header-buttons .orange-btn {
+    padding: 14px 30px;
+    top: 90px;
+    margin-left: -145px;
+    position: absolute;
+}
+}
