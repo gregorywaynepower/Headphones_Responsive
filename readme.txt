@@ -1,1 +1,1 @@
-This is my first change from VS Code to Github
+Front-end portion of the website, the elements are responsive for mobile, tablet, and laptop devices.
